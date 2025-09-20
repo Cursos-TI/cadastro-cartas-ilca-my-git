@@ -49,25 +49,25 @@ int comparacao_super_poder;
 printf("Carta 1\n");
 
 printf("Digite o Estado:\n");
-scanf("%c", &estado);
+scanf(" %c", &estado);
 
 printf("Digite o codigo:\n");
-scanf("%s", &codigo);
+scanf(" %s", &codigo);
 
 printf("Digite a cidade:\n");
-scanf("%s", &cidade);
+scanf(" %s", &cidade);
 
 printf("Digite a população:\n");
-scanf("%lu", &populacao);
+scanf(" %lu", &populacao);
 
 printf("Digite a área:\n");
-scanf("%f", &area);
+scanf("  %f", &area);
 
 printf("Digite o PIB:\n");
-scanf("%f", &pib);
+scanf(" %f", &pib);
 
 printf("Digite o número de pontos turísticos:\n");
-scanf("%d", &pontos_turisticos);
+scanf(" %d", &pontos_turisticos);
 
 // Calculo Densidade populacional - Cartas 1  
 
@@ -134,7 +134,7 @@ scanf(" %f", &pib2);
 printf("Digite o número de pontos turísticos:\n");
 scanf(" %d", &pontos_turisticos2);
 
-// Calculo Densidade populacional - Cartas 2
+// Calculo Densidade populaciona⁷l - Cartas 2
 
 //Carta 2 - densidade 
 densidade2 = (float)populacao2/area2; 
