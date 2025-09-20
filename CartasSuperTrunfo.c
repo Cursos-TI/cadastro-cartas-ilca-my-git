@@ -61,7 +61,7 @@ printf("Digite a população:\n");
 scanf(" %lu", &populacao);
 
 printf("Digite a área:\n");
-scanf("  %f", &area);
+scanf(" %f", &area);
 
 printf("Digite o PIB:\n");
 scanf(" %f", &pib);
